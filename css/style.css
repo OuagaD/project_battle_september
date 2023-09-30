@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+}
+
+
+.head_tdl_namelg{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.head_tdl{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head_tdl_lg{
+    background-image: url("./img/TO-DO-LIST-1200x900.png");
+    background-size: cover;
+    padding: 5px;
+    height: 80px;
+    width: 100px;
+}
+.head_tdl_cont{
+    border: 2px dotted #FBEE97;
+    height: 100px;
+}
+.head_tdl_connex{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head_tdl_insc{
+    border: 2px solid #CEF59F;
+    text-decoration: none; 
+    color: rgb(79, 47, 131);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+.head_tdl_insc:hover{
+    background-color: rgb(79, 47, 131);
+    color: white;
+}
+.head_tdl_secon{
+    border: 2px solid #CEF59F;
+    text-decoration: none; 
+    color: #70b916;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+.head_tdl_secon:hover{
+    background-color: #70b916;
+    color: white;
+}
+
+
+.tdl_main{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.tdl_txtacc{
+    border: 4px double #FBEE97;
+    margin: 100px;
+    width: 400px;
+     font-size: 1.5em;
+}
+.tdl_imgacc{
+    background-image: url("./img/to-do-list-calendar-04-Crush-goals-with-my-to-do-list-and-calendar-download-free-printables-AlizsWonderland.webp");
+    background-size: cover;
+    border: 2px dashed #CEF59F;
+    height: 500px;
+    width: 550px;
+}
+
+
+
+
+/*************INSCRIPTION************/
+.tdl_frmins{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fminsc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #A4C480;
+}
+
+.insc_txt {
+    color: white;
+    font-size: 3.5em;
+}
+
+.fminsc_txt_cont {
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.5em;
+    border: none;
+}
+
+.btn_insc_cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_insc {
+    height: 35px;
+    width: 130px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: #5B812E;
+    color: white;
+}
+
+.fmseinsc_vstxt {
+    color: #5B812E;
+}
+
+.fmsinsc_secontxt {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 180px;
+}
+
+.foot_comm {
+    padding: 5px;
+}
+
+.foot_comm_txt {
+    color: white;
+}
+
+.foot_comm_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.comm_txtarea_ind {
+    color: #2F2235;
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+.foot_cop {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    height: 120px;
+}
+
+.foot_rs_txt {
+    color: white;
+}
+
+.foot_rs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot_rs_lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+.foot_rs_lg_inst {
+    background-image: url("./img/instagram\ \(1\).png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.foot_rs_lg_fb {
+    background-image: url("./img/facebook\ \(1\).png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.foot_rs_lg_in {
+    background-image: url("./img/linkedin.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+/*************SECONNECTER************/
+
+.tdl_secon{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fmsecon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    background-color:  #A4C480;
+    margin: 80px auto;
+    height: 400px;
+    width: 430px;
+    box-shadow: 5px 5px 10px 10px #CEF59F;
+}
+
+.fmsecon_lguser_cont {
+    display: flex;
+    justify-content: center;
+}
+
+.fmsecon_lguser {
+    height: 130px;
+    width: 130px;
+    margin-bottom: -15px;
+    background-image: url('./img/utilisateur\ \(1\).png');
+    background-size: cover;
+}
+
+.fmsecon_txt {
+    font-size: 2.7em;
+    color: #FFFFFF;
+}
+
+.fmsecon_cont_idmt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    width: 330px;
+    font-size: 1.6em;
+}
+
+.fmsecon_cont_idmt_sl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.fmsecon_cont_idmt1 {
+    height: 50px;
+    width: 320px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    color: #2F2235;
+}
+
+.fmsecon_cont_idmt2 {
+    height: 50px;
+    width: 320px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    color: #2F2235;
+}
+
+.fmsecon_idmt {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+.fmsecon_subm {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fmsecon_subm_ {
+    border: none;
+}
+
+.fmsecon_cont_vstxtsintxt {
+    height: 60px;
+}
+
+.fmsecon_vstxt {
+    color: rgba(0, 0, 0, 0.444);
+}
+
+.fmsecon_sintxt {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+
+
+/*************AGENDA************/
+.agd{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 2px dotted #FBEE97;
+}
+tr{
+    border: 2px dotted #FBEE97;
+    height: 50px;
+}
+th{
+    border: 2px dotted #FBEE97;
+    height: 50px;
+}
